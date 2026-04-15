@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Realtime Stats",
+    "slug": "realtime-stats",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0b1020"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.juanlanzos.realtimestats"
+    },
+    "android": {
+      "package": "com.juanlanzos.realtimestats",
+      "adaptiveIcon": {
+        "backgroundColor": "#0b1020"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
