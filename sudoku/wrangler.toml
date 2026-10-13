@@ -1,0 +1,8 @@
+name = "sudoku"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# Dominio propio: Cloudflare crea solo el registro DNS de sudoku.habi.ar
+routes = [
+  { pattern = "sudoku.habi.ar", custom_domain = true }
+]
